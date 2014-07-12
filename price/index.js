@@ -89,15 +89,11 @@ var PriceGenerator = yeoman.generators.Base.extend({
     var _this = this;
     var path = './json/' + _this.flavorSlug + '.json';
 
-    var output = {
-      "name": _this.file.name,
-      "sizes": []
-    };
+    var output = _this.file;
 
     _this.file.sizes.forEach(function (value, key, array) {
       var price = _this.prices[value.name];
       value.price = price;
-      output.sizes.push(value);
     });
 
     fs.outputJSON(path, output, function (err) {
