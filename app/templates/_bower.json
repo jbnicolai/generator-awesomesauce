@@ -1,0 +1,6 @@
+{
+  "name": "<%= projectSlug %>",
+  "version": "0.0.0",
+  "dependencies": {}
+}
+
