@@ -22,10 +22,17 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-awesomesauce from npm, run:
+To install generator-awesomesauce first clone it (maybe your `~/Development` folder?):
 
 ```bash
-$ npm install -g generator-awesomesauce
+$ git clone https://github.com/Snugug/generator-awesomesauce.git
+```
+
+Then, link it:
+
+```bash
+$ cd generator-awesomesauce
+$ npm link
 ```
 
 Finally, initiate the generator:
