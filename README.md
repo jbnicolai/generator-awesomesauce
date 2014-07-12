@@ -1,7 +1,6 @@
-# generator-awesomesauce [![Build Status](https://secure.travis-ci.org/Snugug/generator-awesomesauce.png?branch=master)](https://travis-ci.org/Snugug/generator-awesomesauce)
+# Generator Awesomesauce [![Build Status](https://secure.travis-ci.org/Snugug/generator-awesomesauce.png?branch=master)](https://travis-ci.org/Snugug/generator-awesomesauce)
 
-> [Yeoman](http://yeoman.io) generator
-
+> [Yeoman](http://yeoman.io) generator for my [¡Yo Yo!](http://snugug.github.io/yo-yo) talk
 
 ## Getting Started
 
