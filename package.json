@@ -1,0 +1,47 @@
+{
+  "name": "generator-awesomesauce",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "Snugug/generator-awesomesauce",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/Snugug"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app",
+    "flavor",
+    "price",
+    "bem",
+    "sass",
+    "smacss"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "execSync": "^1.0.2",
+    "fs-extra": "^0.12.0",
+    "path": "^0.4.9",
+    "underscore.string": "^2.3.3",
+    "yeoman-generator": "^0.17.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0",
+    "generator-north": ">=1.6.2",
+    "generator-style-prototype": ">=2.1.0"
+  }
+}
